@@ -50,6 +50,7 @@
     line-height: 1.25;
     margin-bottom: 5px;
     transition: font-size 0.25s ease;
+    color: #62686A;
   }
   
   h1 {
@@ -196,6 +197,15 @@
     text-transform: uppercase;
     transition: opacity 0.5s ease;
   }
+
+  .button-primary {
+    background-color: #F1EB58;
+  } 
+
+  .button-secondary {
+    background-color: #62A7B3;
+    color: #FFFFFF;
+  }
   
   .button:hover {
     opacity: 0.75;
@@ -301,10 +311,15 @@
   .section-header p {
     border-bottom: 1px solid #62A7B3;
     color: #1B1B1B;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 21px;
     padding-bottom: 5px;
+    text-transform: uppercase;
+  }
+
+  .featured-section-header {
+    color: #ffffff;
   }
   
   .featured-movie-section {
@@ -337,6 +352,14 @@
   
   .movie-description-stars {
     margin: 15px 0px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .stars-label {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
   }
   
   .movie-description-button {
@@ -346,7 +369,7 @@
   .movie-description-category {
     border-bottom: 1px solid #62A7B3;
     border-top: 1px solid #62A7B3;
-    letter-spacing: -1px;
+    letter-spacing: 1px;
     margin: 20px auto;
     padding: 10px;
     text-align: center;
